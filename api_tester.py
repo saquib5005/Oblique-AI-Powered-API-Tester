@@ -159,9 +159,9 @@ def test_api(api_url: str, method: str, headers_text: str, payload_text: str, ex
 
 
 # --- Create the Gradio Interface using Blocks for better layout ---
-with gr.Blocks(theme=gr.themes.Soft(primary_hue="sky"), title="📤 AI-Powered API Tester") as interface:
+with gr.Blocks(theme=gr.themes.Soft(primary_hue="sky"), title="📤Oblique: AI-Powered API Tester") as interface:
     gr.Markdown("""
-    # 📤 AI-Powered API Tester
+    # 📤Oblique: AI-Powered API Tester
     Test any API endpoint and get intelligent validation powered by AI. This tool helps developers and QA engineers verify API responses quickly.
     """)
 
