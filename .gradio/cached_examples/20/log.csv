@@ -1,0 +1,98 @@
+✅ API Test Summary,🤖 AI Validation Report,Raw API Response,timestamp
+"### ✅ API Test Summary
+* **Status Code:** `200`
+* **Response Time:** `442.87 ms`","### 1. Summary
+The validation was successful as all expected fields are present in the response.
+
+### 2. Fields Check
+* **✅ Present Fields:**
+  - userId
+  - id
+  - title
+  - body
+* **❌ Missing Fields:** None
+
+### 3. Suggestions
+The response appears to be well-structured and matches typical JSONPlaceholder API output; consider additional validations such as data type checks (e.g., userId and id as integers, title and body as strings) or content verification for more comprehensive testing.","'{
+  ""userId"": 1,
+  ""id"": 1,
+  ""title"": ""sunt aut facere repellat provident occaecati excepturi optio reprehenderit"",
+  ""body"": ""quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto""
+}",2025-07-26 10:24:38.488530
+"### ✅ API Test Summary
+* **Status Code:** `200`
+* **Response Time:** `548.85 ms`","### API Response Validation Analysis
+
+1. **Summary:** The validation was successful as all expected fields are present in the response.
+
+2. **Fields Check:**
+   * **✅ Present Fields:** login, id, name, followers, public_repos.
+   * **❌ Missing Fields:** None.
+
+3. **Suggestions:** The response includes many additional fields (e.g., avatar_url, html_url, bio) which provide extra context but are not required by the validation criteria; this is typical for comprehensive API endpoints like GitHub's user/organization API, and you may want to extend validation to data types or values if needed for more robustness.","'{
+  ""login"": ""gradio-app"",
+  ""id"": 51063788,
+  ""node_id"": ""MDEyOk9yZ2FuaXphdGlvbjUxMDYzNzg4"",
+  ""avatar_url"": ""https://avatars.githubusercontent.com/u/51063788?v=4"",
+  ""gravatar_id"": """",
+  ""url"": ""https://api.github.com/users/gradio-app"",
+  ""html_url"": ""https://github.com/gradio-app"",
+  ""followers_url"": ""https://api.github.com/users/gradio-app/followers"",
+  ""following_url"": ""https://api.github.com/users/gradio-app/following{/other_user}"",
+  ""gists_url"": ""https://api.github.com/users/gradio-app/gists{/gist_id}"",
+  ""starred_url"": ""https://api.github.com/users/gradio-app/starred{/owner}{/repo}"",
+  ""subscriptions_url"": ""https://api.github.com/users/gradio-app/subscriptions"",
+  ""organizations_url"": ""https://api.github.com/users/gradio-app/orgs"",
+  ""repos_url"": ""https://api.github.com/users/gradio-app/repos"",
+  ""events_url"": ""https://api.github.com/users/gradio-app/events{/privacy}"",
+  ""received_events_url"": ""https://api.github.com/users/gradio-app/received_events"",
+  ""type"": ""Organization"",
+  ""user_view_type"": ""public"",
+  ""site_admin"": false,
+  ""name"": ""Gradio"",
+  ""company"": null,
+  ""blog"": ""www.gradio.app"",
+  ""location"": ""Mountain View, CA"",
+  ""email"": ""admin@gradio.app"",
+  ""hireable"": null,
+  ""bio"": ""Delightfully easy-to-use open-source tools that make machine learning easier and more accessible"",
+  ""twitter_username"": null,
+  ""public_repos"": 61,
+  ""public_gists"": 0,
+  ""followers"": 1066,
+  ""following"": 0,
+  ""created_at"": ""2019-05-27T00:16:30Z"",
+  ""updated_at"": ""2025-04-20T10:15:40Z""
+}",2025-07-26 10:24:47.099003
+"### ✅ API Test Summary
+* **Status Code:** `200`
+* **Response Time:** `1433.54 ms`","### 1. Summary
+The validation was successful as all expected fields (json, url, headers) are present in the API response.
+
+### 2. Fields Check
+* **✅ Present Fields:** json, url, headers.
+* **❌ Missing Fields:** None.
+
+### 3. Suggestions
+The response appears to be from an echo service like httpbin.org, which mirrors the request details; the ""json"" field correctly parses the input data, while ""data"" provides the raw string version—consider verifying the content of these fields against the original request payload for deeper validation if needed.","'{
+  ""args"": {},
+  ""data"": ""{\""name\"": \""AI Tester\"", \""version\"": 1.0, \""status\"": \""active\""}"",
+  ""files"": {},
+  ""form"": {},
+  ""headers"": {
+    ""Accept"": ""*/*"",
+    ""Accept-Encoding"": ""gzip, deflate, br"",
+    ""Content-Length"": ""57"",
+    ""Content-Type"": ""application/json"",
+    ""Host"": ""httpbin.org"",
+    ""User-Agent"": ""python-requests/2.32.4"",
+    ""X-Amzn-Trace-Id"": ""Root=1-68845f90-27b671da44d10dcc7730cd32""
+  },
+  ""json"": {
+    ""name"": ""AI Tester"",
+    ""status"": ""active"",
+    ""version"": 1.0
+  },
+  ""origin"": ""117.97.210.20"",
+  ""url"": ""https://httpbin.org/post""
+}",2025-07-26 10:24:56.985885

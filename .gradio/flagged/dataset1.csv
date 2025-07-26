@@ -1,0 +1,6 @@
+API URL,Method,"Headers (JSON format, optional)","Payload (JSON format, optional)",Expected Fields (comma-separated),API Test Results,timestamp
+https://jsonplaceholder.typicode.com/posts/1,GET,,,"userId, id, title, body","✅ API Test Result:
+- Status Code: 200
+- Response Time: 369.01ms
+- Validation Feedback:
+AI validation not available.",2025-07-26 08:26:01.275799
